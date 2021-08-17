@@ -1,0 +1,55 @@
+body {
+    --color-primary: #009579;
+    --color-primary-dark: #007f67;
+    --color-secondary: #252c6a;
+    --color-error: #cc3333;
+    --color-success: #4bb544;
+    --border-radius: 4px;
+
+    margin:0;
+    height:100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 18px;
+
+    font-family: Helvetica;
+    color: var(--color-secondary);
+    background: url(/signup/help.jpg);
+    background-size: cover;
+}
+
+#navbar {
+    display: flex;
+    justify-content: space-around;
+    background-color: rgb(255, 255, 255);
+    border: 3px solid blue;
+}
+
+#navbar:hover {
+    color: rgb(0, 0, 179);
+}
+
+img {
+    width: 140px;
+    height: 60px;
+}
+
+button {
+    height: 20px;
+    background-color: rgb(57, 167, 187);
+}
+
+#organization {
+    border: 3px solid blue;
+    padding: 5px;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+button:hover {
+    background-color: rgb(194, 194, 194);
+}
